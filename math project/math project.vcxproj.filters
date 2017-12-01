@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Calc">
+      <UniqueIdentifier>{1f7ea43d-92bd-41ac-b451-fdbca1aa0c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mathLib">
+      <UniqueIdentifier>{d5e489b0-ad29-4ece-a8dd-eced1500c1c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="erreur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathLib.h">
+      <Filter>Source Files\mathLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="expo.c">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="proba.c">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="ln.c">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="Sin.c">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="mathLib.c">
+      <Filter>Source Files\mathLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="erreur.obj">
+      <Filter>Header Files</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
